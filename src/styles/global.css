@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+  }
+  
+  .table-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .car-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .car-table th,
+  .car-table td {
+    text-align: left;
+    padding: 1rem;
+  }
+  
+  .car-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .car-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; 
+  }
+  
+  .car-table tbody tr:hover {
+    background-color: #eaeaea;
+  }
+  
+  .car-image {
+    width: 80px;
+    height: auto;
+  }
+  
+  .details-link {
+    color: #4caf50;
+    text-decoration: none;
+  }
+  
+  .details-link:hover {
+    text-decoration: underline;
+  }
+  
